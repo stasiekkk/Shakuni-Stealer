@@ -36,7 +36,7 @@
    - Auto Nitro Buyer
    - Sends New Data On Every Password, Email, Phone Number Change
    
-![General Info](/images/general.png)
+![General Info](/images/general.png)![Acc Info](/images/acc.png)
 
 ## **Install**
 **SOON!**
