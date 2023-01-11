@@ -35,8 +35,10 @@
    - Disables Logging Using QR Code and Devices Tab in Settings
    - Auto Nitro Buyer
    - Sends New Data On Every Password, Email, Phone Number Change
-   
+
+<div align="center">
 ![General Info](/images/general.png)![Acc Info](/images/acc.png)
+</div>
 
 ## **Install**
 **SOON!**
