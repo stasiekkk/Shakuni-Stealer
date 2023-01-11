@@ -18,20 +18,20 @@
    - History
    
 ✔️ PC Stats
-    - IP
-    - Computer Name
-    - OS
-    - CPU
-    - GPU
-    - Disk
-    - Clipboard
+   - IP
+   - Computer Name
+   - OS
+   - CPU
+   - GPU
+   - Disk
+   - Clipboard
    
 ✔️ Location
-    - Country
-    - City
+   - Country
+   - City
     
 ✔️ Discord Injection
-    - Automatically Sends Token, Password, Email On Login In
-    - Disables Logging Using QR Code and Devices Tab in Settings
-    - Auto Nitro Buyer
-    - Sends New Data On Every Password, Email, Phone Number Change
+   - Automatically Sends Token, Password, Email On Login In
+   - Disables Logging Using QR Code and Devices Tab in Settings
+   - Auto Nitro Buyer
+   - Sends New Data On Every Password, Email, Phone Number Change
