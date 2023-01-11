@@ -39,6 +39,7 @@
 <div align="center">
    <img src="https://github.com/stasiekkk/Shakuni-Stealer/blob/3597b781ce1e5caf9f20d8a0b9bfc34bce1b4737/images/general.png">
    <img src="https://github.com/stasiekkk/Shakuni-Stealer/blob/3597b781ce1e5caf9f20d8a0b9bfc34bce1b4737/images/acc.png">
+   <img src="https://github.com/stasiekkk/Shakuni-Stealer/blob/3597b781ce1e5caf9f20d8a0b9bfc34bce1b4737/images/pcstats.png">
 </div>
 
 ## **Install**
