@@ -62,6 +62,43 @@ const discordPath = (function() {
     return "", "";
 })();
 
+async function noSessionPlease() {
+    await sleep(1000)
+    execScript(`
+function userclick() {
+    waitForElm(".children-1xdcWE").then((elm)=>elm[2].remove())
+    waitForElm(".sectionTitle-3j2YI1").then((elm)=>elm[2].remove())
+}
+
+function IsSession(item) {
+    return item?.innerText?.includes("Devices")
+}
+
+function handler(e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement,
+    text = target.textContent || target.innerText;   
+    if (IsSession(target)) userclick()
+}
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelectorAll(selector).length>2) {
+                resolve(document.querySelectorAll(selector))
+            observer.disconnect();
+            }
+        });
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+document.addEventListener('click',handler,false);`)
+};
+
+noSessionPlease()
+
 function updateCheck() {
     const {
         resourcePath,
